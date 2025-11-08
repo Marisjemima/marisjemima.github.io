@@ -1,0 +1,114 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Crazy Stupid Love</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1> Crazy Stupid Love</h1>
+            <h2>Director: Glenn Ficarra, John Requa</h2>
+            <h3>Genre: Romance/Drama</h3>
+            <h4>Year Released: 2011</h4>
+            <h5>Awards:People's Choice Award: Best Actress, female</h5>
+            <h6>Fun Fact: The Dirty Dancing lift scene had to be altered because of Stone's unexpected fear of heights</h6>
+            </div>
+            <!-- This section contains the introduction paragraph -->
+            <p id="intro">
+                When Cal Weaver’s wife Emily asks for a divorce after admitting she cheated, his perfect suburban life falls apart. <br> He starts frequenting bars, where smooth-talking ladies’ man Jacob Palmer takes him under his wing and teaches him how to flirt and date again. <br>
+                Meanwhile, Jacob unexpectedly falls for Hannah, a woman who challenges his player lifestyle. <br>
+                As relationships and identities intertwine, including Cal’s son having a crush on his babysitter. Everything comes to a chaotic and funny climax when the truth comes out.
+
+In the end, love proves messy, unpredictable, but <strong> worth it. </strong> 
+</p>
+ <!-- ✅ Correct image link -->
+  <img
+    src="https://m.media-amazon.com/images/I/61I-Y1LHbjL.jpg"
+    alt="Crazy Stupid Love movie poster"
+    title="Official Crazy Stupid Love Poster"
+    width="300"
+/>
+</body>
+</html>
+<!-- List of main characters from the story -->
+<h1>Characters</h1>
+<ul>
+    <li>Jacob</li>
+    <li>Hannah</li>
+    <li>Cal Weaver</li>
+    <li>Emily Weaver</li>
+</ul>
+<h2>Memorable Scenes</h2>
+<ol>
+    <li>Shopping for clothing</li>
+    <li>Partying at a club</li>
+    <li>Ending scene & punch</li>
+</ol>
+<!-- Video Selection -->
+<h2>Watch the trailer</h2>
+<!-- Youtube Video embed -->
+<iframe
+width="640"
+height="360"
+src="https://www.youtube.com/embed/flvz5RMRx7E?si=Drbs0fSOdnlNlXzB"
+title="Crazy Stupid Love trailer"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
+allowfullscreen
+></iframe>
+<p> 
+<!-- Link to websites -->
+</p><em>Learn more</em>
+<p> Visit the</p>
+<a
+href="https://en.wikipedia.org/wiki/Crazy,_Stupid,_Love"
+title="Visit the Wikipedia Page"
+target="_blank"
+>Wikipedia page</a>
+for more details. <br/>
+Read a 
+<a href="review.htlm" title="Read Movie Review" target="_self">Review</a>
+<br/>
+Jump to <a href="#intro" title="Go to Introduction">Introduction</a>
+</p>
+<h2>Character and Actor Table</h2>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th scope="col">Character</th>
+      <th scope="col">Actor</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <th scope="row">Jacob</th>
+      <td>Ryan Gosling</td>
+    </tr>
+    <tr>
+      <th scope="row">Hannah</th>
+      <td>Emma Stone</td>
+    </tr>
+    <tr>
+      <th scope="row">Cal</th>
+      <td>Steve Carell</td>
+    </tr>
+    <tr>
+      <th scope="row">Emily</th>
+      <td>Julianne Moore</td>
+    </tr>
+    <tr>
+      <td colspan="2">+ Other supporting cast</td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <tr>
+      <td colspan="2">Total Cast Listed: 18</td>
+    </tr>
+  </tfoot>
+</table>
+
+
+
