@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="title">ART GALLERY</h1>
+
+    <nav>
+        <a href="index.html">Home</a> | <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <h2>Cities & Landscapes</h2>
+
+    <div class="gallery">
+
+        <!-- 1 Relative -->
+        <figure class="artwork relative">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=500&q=80" alt="Mountain Lake" class="art-img">
+            <figcaption>Nature 1 (relative positioning)</figcaption>
+        </figure>
+
+        <!-- 2 Absolute -->
+        <figure class="artwork absolute">
+            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=500&q=80" alt="Misty Forest" class="art-img">
+            <figcaption>Nature 2 (absolute positioning)</figcaption>
+        </figure>
+
+        <!-- 3 Sticky -->
+        <figure class="artwork sticky">
+            <img src="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?auto=format&fit=crop&w=500&q=80" alt="Forest Path" class="art-img">
+            <figcaption>Nature 3 (sticky positioning)</figcaption>
+        </figure>
+
+        <!-- 4 Static -->
+        <figure class="artwork static">
+            <img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=500&q=80" alt="Waterfall" class="art-img">
+            <figcaption>Nature 4 (static positioning)</figcaption>
+        </figure>
+
+        <!-- 5 IFRAME OF A NATURE PICTURE -->
+      <div class="iframe-box">
+    <iframe class="art-iframe" 
+            src="https://source.unsplash.com/random/1200x800/?aurora,nature" 
+            title="Aurora Nature Photo">
+    </iframe>
+    <figcaption>Nature 5 (iframe of a picture)</figcaption>
+</div>
+
+        <!-- 6–9 Z-index overlapping stack -->
+        <div class="z-stack-inline">
+            <figure class="z-box z-n1">
+                <img src="https://images.unsplash.com/photo-1540206395-68808572332f?auto=format&fit=crop&w=500&q=80" alt="Milky Way">
+                <figcaption>Nature 6 (z-index -1)</figcaption>
+            </figure>
+            <figure class="z-box z-0">
+                <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=500&q=80" alt="Lake Reflection">
+                <figcaption>Nature 7 (z-index 0)</figcaption>
+            </figure>
+            <figure class="z-box z-1">
+                <img src="https://images.unsplash.com/photo-1518173946687-a4c8892bb8a4?auto=format&fit=crop&w=500&q=80" alt="Northern Lights">
+                <figcaption>Nature 8 (z-index 1)</figcaption>
+            </figure>
+            <figure class="z-box z-3">
+                <img src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?auto=format&fit=crop&w=500&q=80" alt="Cherry Blossom">
+                <figcaption>Nature 9 (z-index 3)</figcaption>
+            </figure>
+        </div>
+
+        <!-- Extra space so you can scroll and see sticky -->
+        <div style="height: 120vh;"></div>
+
+    </div>
+    <!-- end .gallery -->
+
+</body>
+</html>

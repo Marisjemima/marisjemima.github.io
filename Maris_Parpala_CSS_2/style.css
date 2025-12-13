@@ -1,0 +1,154 @@
+/* Reset Defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+body {
+    font-family: "Playfair Display", Georgia, serif;
+    line-height: 1.6;
+    color: #222;
+    background-color: #f9f9f9;
+    background-image: url("pattern.png");
+    background-repeat: repeat;
+    min-height: 100vh;               /* makes sure the page fills the screen */
+}
+
+h1.title {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin: 30px 0 20px;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin: 25px 0;
+    color: #444;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px 0;
+    font-size: 1.2rem;
+    background: rgba(249, 249, 249, 0.95);
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    color: navy;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+nav a:hover { color: #A52A2A; }
+
+/* Gallery container — NO position:relative = sticky works perfectly */
+.gallery {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* All images — small + round */
+.art-img, .z-box img {
+    width: 210px !important;
+    height: 290px !important;
+    object-fit: cover !important;
+    border: 5px solid #333 !important;
+    border-radius: 18px !important;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.35) !important;
+}
+
+/* Positioning demos */
+.artwork.relative { position: relative; top: 10px; left: -100px; }
+.artwork.absolute { position: absolute; top: 20px; right: 20px; z-index: 2; }
+.artwork.sticky {
+    position: sticky !important;
+    position: -webkit-sticky !important;
+    top: 30px !important;
+    z-index: 10;
+}
+
+/* Iframe box */
+.iframe-box {
+    display: block;
+    text-align: center;
+    margin: 50px auto;
+    width: 420px;
+    height: 300px;
+}
+
+.art-iframe {
+    width: 420px;
+    height: 280px;
+    border: 5px solid #333;
+    border-radius: 18px;
+}
+
+/* Z-index stack */
+.z-stack-inline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+}
+
+.z-box {
+    display: inline-block;
+    margin-left: -100px;
+    position: relative;
+    text-align: center;
+}
+
+.z-box:first-child { margin-left: 0; }
+
+.z-n1 { z-index: -1; }
+.z-0  { z-index: 0; }
+.z-1  { z-index: 1; }
+.z-3  { z-index: 3; }
+
+.z-box img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.z-box figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #333;
+}
+
+/* Quote (only on index.html) */
+.quote {
+    background-color: hsl(210, 60%, 96%);
+    padding: 25px;
+    margin: 40px auto;
+    max-width: 720px;
+    border-radius: 12px;
+    text-align: center;
+    font-style: italic;
+    opacity: 0.95;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #eee;
+    border-top: 2px solid #ccc;
+    margin-top: 80px;
+    font-size: 0.9rem;
+}
