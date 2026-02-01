@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Me</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark p-3">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="experience.html">Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+  <!-- Main Content -->
+  <main class="container my-5">
+     <h1 class="text-center text-primary mb-4 bounce-hover">
+  About Me
+</h1>
+ 
+    <p class="lead">
+      I'm a first year student at Laurea, studying Business Information Technology,
+      passionate about technology-driven business solutions and the intersection
+      of technology and legal frameworks.
+    </p>
+
+    <p>
+      I bring a creative and solution-focused mindset to challenges and thrive
+      in collaborative team environments. I am eager to learn, grow, and contribute
+      in meaningful ways.
+    </p>
+
+    <p>
+      My free time consists of a lot of excerise and a focus on my own well-being!
+    </p>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center py-3 mt-5">
+    <p class="mb-0">&copy; 2026 Maris</p>
+  </footer>
+
+</body>
+</html>
